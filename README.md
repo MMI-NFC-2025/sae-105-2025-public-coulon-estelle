@@ -3,11 +3,11 @@
 
 À compléter :
 
-- NOM :
-- PRÉNOM :
-- GROUPE :
-- URL du site :
-- URL FIGMA :
+- NOM : COULON
+- PRÉNOM : Estelle
+- GROUPE : B2
+- URL du site : https://fastidious-sunflower-d9fd1f.netlify.app/
+- URL FIGMA : https://www.figma.com/design/kidpZ8YQgKiD3hYRq8Wtr6/Flying-Tap-Fest_Maquette?node-id=0-1&t=vvRrSHu4FJcwFjKs-1
 
 ## Sujet
 
