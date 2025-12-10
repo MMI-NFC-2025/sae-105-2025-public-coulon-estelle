@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flying Tap Fest – Contact</title>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/assets/favicon/site.webmanifest">
+
+    <meta name="description" content="Contactez l'équipe du Flying Tap Fest pour toute question sur le festival, la billetterie, la presse ou les partenariats.">
+</head>
+<body>
+
+<header class="header">
+    <a href="/index.html" class="logo" aria-label="Accueil Flying Tap Fest">
+        <img src="/assets/icons/Logo.svg" alt="Logo Flying Tap Fest">
+    </a>
+
+    <button class="menu-toggle" type="button" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="main-nav">
+        <span></span>
+        <span></span>
+    </button>
+
+    <nav class="nav" id="main-nav" aria-label="Navigation principale">
+        <ul class="nav__list nav__list--primary">
+            <li class="nav__item"><a href="/lefestival.html">À propos</a></li>
+            <li class="nav__item"><a href="/programme.html">Programme</a></li>
+            <li class="nav__item"><a href="/artistes.html">Artistes</a></li>
+            <li class="nav__item"><a href="/scenes.html">Les scènes</a></li>
+        </ul>
+        <ul class="nav__list nav__list--secondary">
+            <li class="nav__item"><a href="/infos.html">Infos pratiques</a></li>
+            <li class="nav__item"><a href="/contact.html" aria-current="page">Contact</a></li>
+        </ul>
+        <img src="/assets/icons/menu.svg" alt="" aria-hidden="true">
+    </nav>
+</header>
+
+<main class="main main--contact">
+    <section class="contact" aria-labelledby="contact-title">
+        <header class="contact__header">
+            <h1 id="contact-title" class="contact__title">Contact</h1>
+            <p class="contact__subtitle">Envoyez-nous un message</p>
+        </header>
+
+        <form class="contact-form" id="contactForm">
+            <div class="form-group">
+                <label for="name" class="form-group__label">Nom complet</label>
+                <input type="text" id="name" name="name" class="form-group__input" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email" class="form-group__label">Adresse email</label>
+                <input type="email" id="email" name="email" class="form-group__input" required>
+            </div>
+
+            <div class="form-group">
+                <label for="subject" class="form-group__label">Sujet</label>
+                <input type="text" id="subject" name="subject" class="form-group__input" required>
+            </div>
+
+            <div class="form-group">
+                <label for="message" class="form-group__label">Votre message</label>
+                <textarea id="message" name="message" class="form-group__textarea" rows="6" required></textarea>
+            </div>
+
+            <button type="submit" class="btn btn--primary btn--full">
+                <img src="/assets/icons/Avion.svg" alt="" aria-hidden="true">
+                <span>Envoyer le message</span>
+            </button>
+        </form>
+    </section>
+
+    <section class="contact contact--secondary">
+        <div class="contact__section contact__section--coords">
+            <h2 class="section-title">Coordonnées</h2>
+            <ul class="contact-info">
+                <li class="contact-info__item">
+                    <h3 class="contact-info__title">
+                        <img src="/assets/icons/Lettre.svg" alt="" aria-hidden="true">
+                        <span>Email</span>
+                    </h3>
+                    <p>contact@flyingtapfest.fr</p>
+                    <p>presse@flyingtapfest.fr</p>
+                </li>
+                <li class="contact-info__item">
+                    <h3 class="contact-info__title">
+                        <img src="/assets/icons/Telephone.svg" alt="" aria-hidden="true">
+                        <span>Téléphone</span>
+                    </h3>
+                    <p>+33 3 81 99 99 99</p>
+                    <p>Lun–Ven&nbsp;: 9h–18h</p>
+                </li>
+                <li class="contact-info__item">
+                    <h3 class="contact-info__title">
+                        <img src="/assets/icons/Location.svg" alt="" aria-hidden="true">
+                        <span>Adresse</span>
+                    </h3>
+                    <p>Flying Tap Fest</p>
+                    <p>123 Avenue des Claquettes</p>
+                    <p>25150 Pont-de-Roide, France</p>
+                </li>
+            </ul>
+        </div>
+    </section>
+</main>
+
+<footer class="footer">
+    <div class="footer__content">
+
+        <section class="footer__section">
+            <h2 class="footer__title">Flying Tap Fest</h2>
+            <p>Le festival de claquettes qui fait vibrer Montbéliard chaque été. Une célébration de la danse, du rythme et de la culture tap.</p>
+        </section>
+
+        <section class="footer__section" aria-labelledby="footer-links">
+            <h2 class="footer__title" id="footer-links">Liens rapides</h2>
+            <ul class="footer__links">
+                <li><a href="/lefestival.html">Le Festival</a></li>
+                <li><a href="/programme.html">Programme</a></li>
+                <li><a href="/artistes.html">Artistes</a></li>
+                <li><a href="/scenes.html">Scènes</a></li>
+                <li><a href="/infos.html">Infos pratiques</a></li>
+                <li><a href="/contact.html">Contact</a></li>
+            </ul>
+        </section>
+
+        <section class="footer__section" aria-labelledby="footer-social">
+            <h2 class="footer__title" id="footer-social">Suivez-nous</h2>
+            <ul class="footer__social">
+                <li><a href="#" aria-label="Facebook"><img src="/assets/icons/Facebook.svg" alt=""></a></li>
+                <li><a href="#" aria-label="Instagram"><img src="/assets/icons/Instagram.svg" alt=""></a></li>
+                <li><a href="#" aria-label="YouTube"><img src="/assets/icons/Youtube.svg" alt=""></a></li>
+                <li><a href="#" aria-label="X"><img src="/assets/icons/X.svg" alt=""></a></li>
+            </ul>
+        </section>
+
+        <div class="footer__bottom">
+            <hr>
+            <p>© 2026 Flying Tap Fest. Tous droits réservés.</p>
+        </div>
+
+    </div>
+</footer>
+
+</body>
+</html>
