@@ -1,6 +1,20 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="/src/css/style.css" />
+    
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flying Tap Fest – Programme</title>
@@ -43,112 +57,196 @@
         <section class="programme" aria-labelledby="programme-title">
             <header class="programme__header">
                 <h1 id="programme-title">Programme</h1>
-                <a href="/assets/docs/programme-flying-tap-fest.pdf" download>
+                <a class="programme-button" href="/assets/docs/programme-flying-tap-fest.pdf" download>
                     <img src="/assets/icons/Telechargement.svg" alt="Icône de téléchargement">
                     Télécharger le programme en PDF
                 </a>
             </header>
 
             <section class="filters" aria-label="Filtres du programme">
-                <div class="filters__header">
-                    <p>
-                        <img src="/assets/icons/Filtre.svg" alt="Icône de filtre">
-                        Filtres
-                    </p>
-                </div>
-                <div class="filters__group">
-                    <p>Genre</p>
-                    <p>
-                        Tous les genres
-                        <img src="/assets/icons/arrow FAQ.svg" alt="Ouvrir la liste des genres">
-                    </p>
-                </div>
-                <div class="filters__group">
-                    <p>Horaire</p>
-                    <p>
-                        Tous les horaires
-                        <img src="/assets/icons/arrow FAQ.svg" alt="Ouvrir la liste des horaires">
-                    </p>
-                </div>
-                <div class="filters__group">
-                    <p>Scène</p>
-                    <p>
-                        Toutes les scènes
-                        <img src="/assets/icons/arrow FAQ.svg" alt="Ouvrir la liste des scènes">
-                    </p>
-                </div>
-            </section>
+    <div class="filters__header">
+        <p>
+            <img src="/assets/icons/Filtre.svg" alt="Icône de filtre">
+            Filtres
+        </p>
+    </div>
 
-            <section class="schedule" aria-label="Programme du festival">
-                <section class="schedule__day" aria-labelledby="day-06">
-                    <h2 id="day-06">06 juin</h2>
-                    <ul class="schedule__list">
-                        <li class="schedule__item">
-                            <img src="/assets/img/Programme/Milo.webp" alt="Milo Everstep sur scène" title="Artiste Milo Everstep" loading="lazy">
-                            <h3>Milo Everstep</h3>
-                            <p>Jeune Talent</p>
-                            <p><strong>Horaire :</strong> 14:00</p>
-                            <p><strong>Scène :</strong> Scène Découverte</p>
-                        </li>
-                        <li class="schedule__item">
-                            <img src="/assets/img/Programme/Clara.webp" alt="Clara Delmare sur scène" title="Artiste Clara Delmare" loading="lazy">
-                            <h3>Clara "Silver Shoes" Delmare</h3>
-                            <p>Comédie Tap</p>
-                            <p><strong>Horaire :</strong> 16:00</p>
-                            <p><strong>Scène :</strong> Grande Scène</p>
-                        </li>
-                        <li class="schedule__item">
-                            <img src="/assets/img/Programme/Jaden.webp" alt="Jaden Hartwell sur scène" title="Artiste Jaden Hartwell" loading="lazy">
-                            <h3>Jaden Hartwell</h3>
-                            <p>Soul Tap</p>
-                            <p><strong>Horaire :</strong> 18:30</p>
-                            <p><strong>Scène :</strong> Scène Découverte</p>
-                        </li>
-                        <li class="schedule__item">
-                            <img src="/assets/img/Programme/Tessa.webp" alt="Tessa Marlowe sur scène" title="Artiste Tessa Marlowe" loading="lazy">
-                            <h3>Tessa Marlowe</h3>
-                            <p>Tap Jazz</p>
-                            <p><strong>Horaire :</strong> 20:30</p>
-                            <p><strong>Scène :</strong> Grande Scène</p>
-                        </li>
-                    </ul>
-                </section>
+    <div class="filters__group">
+        <p>Genre</p>
+        <p>
+            Tous les genres
+            <img src="/assets/icons/arrow FAQ.svg" alt="Ouvrir la liste des genres">
+        </p>
+    </div>
 
-                <section class="schedule__day" aria-labelledby="day-07">
-                    <h2 id="day-07">07 juin</h2>
-                    <ul class="schedule__list">
-                        <li class="schedule__item">
-                            <img src="/assets/img/Programme/Elian.webp" alt="Elián Cortez sur scène" title="Artiste Elián Cortez" loading="lazy">
-                            <h3>Elián Cortez</h3>
-                            <p>Soul Tap</p>
-                            <p><strong>Horaire :</strong> 16:00</p>
-                            <p><strong>Scène :</strong> Scène Découverte</p>
-                        </li>
-                        <li class="schedule__item">
-                            <img src="/assets/img/Programme/Theo.webp" alt="Theo Copperlane sur scène" title="Artiste Theo Copperlane" loading="lazy">
-                            <h3>Theo Copperlane</h3>
-                            <p>Flamenco Tap</p>
-                            <p><strong>Horaire :</strong> 17:30</p>
-                            <p><strong>Scène :</strong> Grande Scène</p>
-                        </li>
-                        <li class="schedule__item">
-                            <img src="/assets/img/Programme/Damian.webp" alt="Damian Quickfoot sur scène" title="Artiste Damian Quickfoot" loading="lazy">
-                            <h3>Damian Quickfoot</h3>
-                            <p>Hip-Hop Tap</p>
-                            <p><strong>Horaire :</strong> 19:00</p>
-                            <p><strong>Scène :</strong> Scène Découverte</p>
-                        </li>
-                        <li class="schedule__item">
-                            <img src="/assets/img/Programme/Harper.webp" alt="Harper Drayton sur scène" title="Artiste Harper Drayton" loading="lazy">
-                            <h3>Harper Drayton</h3>
-                            <p>Irish Tap</p>
-                            <p><strong>Horaire :</strong> 20:30</p>
-                            <p><strong>Scène :</strong> Grande Scène</p>
-                        </li>
-                    </ul>
-                </section>
-            </section>
-        </section>
+    <div class="filters__group">
+        <p>Horaire</p>
+        <p>
+            Tous les horaires
+            <img src="/assets/icons/arrow FAQ.svg" alt="Ouvrir la liste des horaires">
+        </p>
+    </div>
+
+    <div class="filters__group">
+        <p>Scène</p>
+        <p>
+            Toutes les scènes
+            <img src="/assets/icons/arrow FAQ.svg" alt="Ouvrir la liste des scènes">
+        </p>
+    </div>
+</section>
+
+
+<section class="schedule" aria-label="Programme du festival">
+
+    <!-- Jour 06 juin -->
+    <section class="schedule__day" aria-labelledby="day-06">
+        <h2 id="day-06">06 juin</h2>
+
+        <ul class="schedule__list">
+
+            <!-- Milo Everstep -->
+            <li class="schedule__item"
+                data-genre="Jeune Talent"
+                data-time="14:00"
+                data-scene="Scène Découverte">
+
+                <img src="/assets/img/Programme/Milo.webp" alt="Milo Everstep">
+
+                <div class="info">
+                    <h3>Milo Everstep</h3>
+                    <p>Jeune Talent</p>
+                    <p><strong>Horaire :</strong> 14:00</p>
+                    <p><strong>Scène :</strong> Scène Découverte</p>
+                </div>
+            </li>
+
+            <!-- Clara Delmare -->
+            <li class="schedule__item"
+                data-genre="Comédie Tap"
+                data-time="16:00"
+                data-scene="Grande Scène">
+
+                <img src="/assets/img/Programme/Clara.webp" alt="Clara Delmare">
+
+                <div class="info">
+                    <h3>Clara "Silver Shoes" Delmare</h3>
+                    <p>Comédie Tap</p>
+                    <p><strong>Horaire :</strong> 16:00</p>
+                    <p><strong>Scène :</strong> Grande Scène</p>
+                </div>
+            </li>
+
+            <!-- Jaden Hartwell -->
+            <li class="schedule__item"
+                data-genre="Soul Tap"
+                data-time="18:30"
+                data-scene="Scène Découverte">
+
+                <img src="/assets/img/Programme/Jaden.webp" alt="Jaden Hartwell">
+
+                <div class="info">
+                    <h3>Jaden Hartwell</h3>
+                    <p>Soul Tap</p>
+                    <p><strong>Horaire :</strong> 18:30</p>
+                    <p><strong>Scène :</strong> Scène Découverte</p>
+                </div>
+            </li>
+
+            <!-- Tessa Marlowe -->
+            <li class="schedule__item"
+                data-genre="Tap Jazz"
+                data-time="20:30"
+                data-scene="Grande Scène">
+
+                <img src="/assets/img/Programme/Tessa.webp" alt="Tessa Marlowe">
+
+                <div class="info">
+                    <h3>Tessa Marlowe</h3>
+                    <p>Tap Jazz</p>
+                    <p><strong>Horaire :</strong> 20:30</p>
+                    <p><strong>Scène :</strong> Grande Scène</p>
+                </div>
+            </li>
+
+        </ul>
+    </section>
+
+
+    <!-- Jour 07 juin -->
+    <section class="schedule__day" aria-labelledby="day-07">
+        <h2 id="day-07">07 juin</h2>
+
+        <ul class="schedule__list">
+
+            <!-- Elián Cortez -->
+            <li class="schedule__item"
+                data-genre="Soul Tap"
+                data-time="16:00"
+                data-scene="Scène Découverte">
+
+                <img src="/assets/img/Programme/Elian.webp" alt="Elián Cortez">
+
+                <div class="info">
+                    <h3>Elián Cortez</h3>
+                    <p>Soul Tap</p>
+                    <p><strong>Horaire :</strong> 16:00</p>
+                    <p><strong>Scène :</strong> Scène Découverte</p>
+                </div>
+            </li>
+
+            <!-- Theo Copperlane -->
+            <li class="schedule__item"
+                data-genre="Flamenco Tap"
+                data-time="17:30"
+                data-scene="Grande Scène">
+
+                <img src="/assets/img/Programme/Theo.webp" alt="Theo Copperlane">
+
+                <div class="info">
+                    <h3>Theo Copperlane</h3>
+                    <p>Flamenco Tap</p>
+                    <p><strong>Horaire :</strong> 17:30</p>
+                    <p><strong>Scène :</strong> Grande Scène</p>
+                </div>
+            </li>
+
+            <!-- Damian Quickfoot -->
+            <li class="schedule__item"
+                data-genre="Hip-Hop Tap"
+                data-time="19:00"
+                data-scene="Scène Découverte">
+
+                <img src="/assets/img/Programme/Damian.webp" alt="Damian Quickfoot">
+
+                <div class="info">
+                    <h3>Damian Quickfoot</h3>
+                    <p>Hip-Hop Tap</p>
+                    <p><strong>Horaire :</strong> 19:00</p>
+                    <p><strong>Scène :</strong> Scène Découverte</p>
+                </div>
+            </li>
+
+            <!-- Harper Drayton -->
+            <li class="schedule__item"
+                data-genre="Irish Tap"
+                data-time="20:30"
+                data-scene="Grande Scène">
+
+                <img src="/assets/img/Programme/Harper.webp" alt="Harper Drayton">
+
+                <div class="info">
+                    <h3>Harper Drayton</h3>
+                    <p>Irish Tap</p>
+                    <p><strong>Horaire :</strong> 20:30</p>
+                    <p><strong>Scène :</strong> Grande Scène</p>
+                </div>
+            </li>
+
+        </ul>
+    </section>
+
+</section>
     </main>
 
     <footer class="footer">
@@ -189,6 +287,8 @@
         </div>
     </footer>
 
+    <script src="/src/js/script.js"></script>
 </body>
 </html>
+   
    

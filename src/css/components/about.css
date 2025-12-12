@@ -1,0 +1,62 @@
+.about__edition {
+    margin-top: 3.5rem;
+    padding: 3.5rem 1.5rem;
+    border-radius: 20px;
+    text-align: center;
+    background: linear-gradient(180deg, var(--rouge-vif) 0%, var(--moutarde-moyen) 50%, var(--moutarde-fonce) 100%);
+    color: var(--blanc);
+}
+
+.about__edition h2 {
+    font-family: "Playfair Display", "Times New Roman", serif;
+    font-size: 2.8rem;
+    font-weight: 800;
+    margin-bottom: 1.6rem;
+}
+
+.about__edition p {
+    font-family: "Playfair Display", "Times New Roman", serif;
+    font-size: 1.3rem;
+    line-height: 1.6;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+/* Offset content below fixed header on all pages except home */
+body:not(.home) .main {
+  margin-top: 100px;
+  margin-inline: 15px;
+}
+
+.about__mix {
+    margin-top: 1.5rem;
+    padding: 2.2rem 2.4rem;
+    border-radius: 36px;
+    background: var(--noir);
+    color: var(--beige-pastel);
+}
+
+.about__mix h2 {
+    font-family: var(--font-family-playfair-display), "Times New Roman", serif;
+    font-size: 1.6rem;
+    font-weight: 700;
+    line-height: 1.4;
+    margin: 0 0 1.4rem;
+    color: var(--beige-pastel);
+}
+
+.about__mix ul {
+    margin: 0;
+    padding-left: 1.2rem;
+    list-style: disc;
+}
+
+.about__mix li {
+    font-size: 1rem;
+    line-height: 1.8;
+    margin-bottom: 0.4rem;
+}
+
+.edition-title {
+    color: var(--blanc);
+}

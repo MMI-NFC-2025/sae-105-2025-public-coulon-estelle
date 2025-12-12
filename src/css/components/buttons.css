@@ -1,0 +1,37 @@
+.btn {
+  display: inline-block;
+  padding: 1rem 2.5rem;
+  font-family: var(--font-family-playfair-display);
+  font-size: 1rem;
+  font-weight: 600;
+  text-align: center;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border: 2px solid transparent;
+}
+
+.btn--primary {
+  background-color: var(--moutarde);
+  color: var(--blanc);
+  border-color: var(--moutarde);
+}
+
+.btn--primary:hover {
+  background-color: transparent;
+  color: var(--moutarde);
+  border-color: var(--moutarde);
+}
+
+.btn--cta {
+  background-color: var(--blanc);
+  color: var(--moutarde);
+  border-color: var(--blanc);
+}
+
+.btn--cta:hover {
+  background-color: transparent;
+  color: var(--blanc);
+  border-color: var(--blanc);
+}
+

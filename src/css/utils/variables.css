@@ -1,0 +1,43 @@
+/* Variable collection */
+:root {
+  --beige: #b5ab96;
+  --beige-clair: #d8cdb8;
+  --beige-tres-clair: #e6dfd2;
+  --beige-chaud: #f8f3ea;
+  --beige-pastel: #F6E9CC;
+  --blanc: #f3eee5;
+  --blanc-transparent: rgba(243, 238, 229, 0.98);
+  --blanc-semi: rgba(255, 255, 255, 0.1);
+  --blanc-border: rgba(255, 255, 255, 0.2);
+  --moutarde: #976819;
+  --moutarde-clair: #b07d2a;
+  --moutarde-moyen: #B66A23;
+  --moutarde-fonce: #C7A144;
+  --noir: #222222;
+  --noir-brun: #4a4032;
+  --brun-moyen: #61533d;
+  --rouge: #841a0f;
+  --rouge-fonce: #8c170b;
+  --rouge-vif: #8C1B13;
+  --rouge-clair: #a83c28;
+
+  --font-size-16: 1rem;
+  --font-size-20: 1.25rem;
+  --font-size-24: 1.5rem;
+  --font-size-30: 1.875rem;
+  --font-size-48: 3rem;
+  --font-size-60: 3.75rem;
+  --font-weight-regular: 25rem;
+  --font-weight-bold: 43.75rem;
+  --letter-spacing-0: 0rem;
+  --line-height-110: 6.875rem;
+  --line-height-150: 9.375rem;
+  --line-height-160: 10rem;
+  --list-spacing-0: 0rem;
+  --paragraph-indent-0: 0rem;
+  --paragraph-spacing-0: 0rem;
+  
+  --font-family-abril-fatface: Abril Fatface;
+  --font-family-la-belle-aurore: La Belle Aurore;
+  --font-family-playfair-display: Playfair Display;
+}

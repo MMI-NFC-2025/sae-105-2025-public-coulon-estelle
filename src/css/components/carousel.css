@@ -1,0 +1,217 @@
+/* Carousel (partners & team) ------------------------------------ */
+
+.carousel {
+  position: relative;
+  overflow: hidden;
+  padding: 2rem 0;
+  margin: 0 33px;
+}
+
+.carousel__track {
+  display: flex;
+  gap: 2rem;
+  transition: transform 0.5s ease-in-out;
+}
+
+.carousel__item {
+  background: var(--blanc);
+  border: 1px solid var(--beige-tres-clair);
+  border-radius: 14px;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  box-shadow: 0 10px 22px rgba(0, 0, 0, 0.05);
+  min-height: 120px;
+  min-width: 200px;
+  flex-shrink: 0;
+}
+
+.carousel__item img {
+  max-height: 80px;
+  max-width: 100%;
+  object-fit: contain;
+}
+
+.carousel__item h3 {
+  font-family: var(--font-family-abril-fatface), serif;
+  font-size: 1.1rem;
+  margin: 0;
+}
+
+.carousel__item h4 {
+  font-family: var(--font-family-playfair-display), serif;
+  font-size: 0.95rem;
+  color: var(--brun-moyen);
+  margin: 0;
+}
+
+.carousel__item p {
+  color: var(--noir-brun);
+  text-align: center;
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+/* Navigation buttons */
+.carousel__nav {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.carousel__btn {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid var(--noir);
+  background: transparent;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+}
+
+.carousel__btn:hover {
+  background: var(--noir);
+  color: var(--blanc);
+}
+
+.carousel__btn svg {
+  width: 20px;
+  height: 20px;
+}
+
+/* Dots indicator */
+.carousel__dots {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.carousel__dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--beige-clair);
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.carousel__dot.active {
+  background: var(--noir);
+  width: 24px;
+  border-radius: 5px;
+}
+
+.about__team {
+    padding: 4rem 1.5rem;
+    text-align: center;
+}
+
+.about__team h2 {
+    font-size: 2rem;
+    margin-bottom: 2.5rem;
+}
+
+
+
+
+
+.about__team {
+    padding: 4rem 1.5rem;
+    text-align: center;
+}
+
+.about__team h2 {
+    font-size: 2rem;
+    margin-bottom: 2.5rem;
+}
+
+/* --- STRUCTURE --- */
+
+.carousel__wrapper {
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.carousel__viewport {
+    overflow: hidden;
+}
+
+.carousel__team {
+    display: flex;
+    gap: 2rem;
+}
+
+.carousel__track-team {
+    display: flex;
+    gap: 2rem;
+}
+
+/* CONTENEUR DU CAROUSEL */
+.carousel__team {
+    overflow: hidden;
+}
+
+.carousel__track-team {
+    display: flex;
+    gap: 20px;
+}
+
+/* CARTE "NOTRE ÉQUIPE" */
+.carousel__item-team {
+    display: flex;
+    width: 296px;
+    padding-bottom: 20px;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    flex-shrink: 0;
+    border-radius: 25px;
+    background: var(--beige);
+    overflow: hidden;
+    box-shadow: 0 16px 35px rgba(0, 0, 0, 0.18);
+}
+
+/* IMAGE EN HAUT DE LA CARTE */
+.carousel__item-team img {
+    width: 100%;
+    height: 320px;      /* ajuste si tu veux plus/moins haut */
+    object-fit: cover;
+    display: block;
+}
+
+/* TEXTE AU CENTRE */
+.card-text {
+    padding: 0 18px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.card-text h3 {
+    font-family: var(--font-family-playfair-display), "Times New Roman", serif;
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+.card-text h4 {
+    font-family: var(--font-family-playfair-display), "Times New Roman", serif;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--rouge);
+}
+
+.card-text p {
+    font-size: 0.98rem;
+    line-height: 1.7;
+}

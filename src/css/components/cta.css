@@ -1,0 +1,11 @@
+.cta {
+    background: linear-gradient(120deg, var(--rouge-fonce), var(--rouge-clair));
+    color: var(--blanc);
+    padding: 2.5rem 2rem;
+    border-radius: 0;
+    display: grid;
+    gap: 1.5rem;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0 16px 36px rgba(132, 26, 15, 0.35);
+}

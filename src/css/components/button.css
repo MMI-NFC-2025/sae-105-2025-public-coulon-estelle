@@ -1,0 +1,78 @@
+/* Buttons ------------------------------------ */
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.85rem 1.4rem;
+  border-radius: 999px;
+  border: 1px solid transparent;
+  font-weight: 700;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: transform 0.15s ease, box-shadow 0.2s ease, background 0.2s ease;
+}
+
+.btn img {
+  width: 20px;
+  height: 20px;
+}
+
+.btn--primary {
+  background: var(--rouge);
+  color: #fff;
+  box-shadow: 0 12px 24px rgba(132, 26, 15, 0.25);
+}
+
+.btn--primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 14px 28px rgba(132, 26, 15, 0.3);
+}
+
+.btn--cta {
+  background: linear-gradient(120deg, var(--moutarde), var(--moutarde-clair));
+  color: var(--blanc);
+  box-shadow: 0 12px 24px rgba(151, 104, 25, 0.28);
+}
+
+.btn--cta:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 14px 28px rgba(151, 104, 25, 0.35);
+}
+
+.btn--full {
+  width: 100%;
+}
+
+/* button programme */
+.programme-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.6rem;
+    padding: 0.9rem 2rem;
+    background: var(--rouge);
+    color: #FFFFFF;
+    font-family: var(--font-family-playfair-display);
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 999px;
+    text-decoration: none;
+    transition: transform 0.15s ease, opacity 0.15s ease;
+}
+
+.programme-button img {
+    width: 18px;
+    height: 18px;
+    filter: brightness(0) invert(1);
+}
+
+.programme-button:hover,
+.programme-button:focus-visible {
+    transform: translateY(-2px);
+}
+
+.programme-button:active {
+    transform: scale(0.97);
+}

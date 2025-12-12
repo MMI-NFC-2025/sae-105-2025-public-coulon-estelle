@@ -1,0 +1,84 @@
+.filters {
+    margin: 2rem 1.5rem 2.5rem;
+    padding: 1.8rem 1.8rem 2.2rem;
+    border-radius: 36px;
+    background: #191919;
+    color: #F6E9CC;
+}
+
+.filters__header p {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    margin: 0 0 1.6rem;
+    font-family: var(--font-family-playfair-display);
+    font-size: 1.3rem;
+    color: var(--moutarde);
+}
+
+.filters__header img {
+    width: 20px;
+    height: 20px;
+}
+
+.filters__group {
+    margin-top: 1.2rem;
+}
+
+.filters__group > p:first-child {
+    font-family: var(--font-family-playfair-display);
+    font-size: 1.05rem;
+    margin: 0 0 0.5rem;
+}
+
+.filters__group > p:last-child {
+    margin: 0;
+    padding: 0.8rem 1.4rem;
+    border-radius: 999px;
+    background: #F6EDE0;
+    color: var(--moutarde);
+    font-family: var(--font-family-playfair-display);
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.filters__group > p:last-child img {
+    width: 14px;
+    height: 14px;
+}
+
+.filters__field {
+    user-select: none;
+}
+
+.filters__options {
+    margin-top: 0.4rem;
+    border-radius: 18px;
+    background: #F6EDE0;
+    display: none;
+    overflow: hidden;
+    box-shadow: 0 16px 40px rgba(0, 0, 0, 0.35);
+}
+
+.filters__options--open {
+    display: block;
+}
+
+.filters__options button {
+    width: 100%;
+    padding: 0.5rem 1.4rem;
+    border: none;
+    background: transparent;
+    text-align: left;
+    font-family: var(--font-family-playfair-display);
+    font-size: 0.95rem;
+    color: #7A5A2A;
+    cursor: pointer;
+}
+
+.filters__options button:hover {
+    background: rgba(0, 0, 0, 0.06);
+}

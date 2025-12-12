@@ -1,6 +1,20 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="/src/css/style.css" />
+    
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flying Tap Fest – Le festival</title>
@@ -61,43 +75,51 @@
                 </div>
             </section>
 
-            <section class="about__team" aria-labelledby="team-title">
-                <h2 id="team-title">Notre Équipe</h2>
-                <div class="carousel" aria-label="L'équipe du festival">
-                    <article class="carousel__item">
-                        <img src="/assets/img/A-propos/femme1.webp" alt="Portrait de Marie Dubois, directrice artistique" loading="lazy">
-                        <div>
-                            <h3>Marie Dubois</h3>
-                            <h4>Directrice artistique</h4>
-                        </div>
+    <section class="about__team" aria-labelledby="team-title">
+    <h2 id="team-title">Notre Équipe</h2>
+
+    <div class="carousel__wrapper">
+        <div class="carousel__viewport">
+            <div class="carousel__team" aria-label="L'équipe du festival">
+                <article class="carousel__item-team">
+                    <img src="/assets/img/A-propos/femme1.webp" alt="Portrait de Marie Dubois, directrice artistique" loading="lazy">
+                    <div class="card-text">
+                        <h3>Marie Dubois</h3>
+                        <h4>Directrice artistique</h4>
                         <p>Danseuse et chorégraphe reconnue, Marie dirige le festival depuis sa création.</p>
-                    </article>
-                    <article class="carousel__item">
-                        <img src="/assets/img/A-propos/homme1.webp" alt="Portrait de Thomas Martin, directeur technique" loading="lazy">
-                        <div>
-                            <h3>Thomas Martin</h3>
-                            <h4>Directeur technique</h4>
-                        </div>
+                    </div>
+                </article>
+
+                <article class="carousel__item-team">
+                    <img src="/assets/img/A-propos/homme1.webp" alt="Portrait de Thomas Martin, directeur technique" loading="lazy">
+                    <div class="card-text">
+                        <h3>Thomas Martin</h3>
+                        <h4>Directeur technique</h4>
                         <p>Expert en son et lumière, Thomas assure la qualité technique de tous les spectacles.</p>
-                    </article>
-                    <article class="carousel__item">
-                        <img src="/assets/img/A-propos/femme2.webp" alt="Portrait de Sophie Laurent, coordinatrice" loading="lazy">
-                        <div>
-                            <h3>Sophie Laurent</h3>
-                            <h4>Coordinatrice</h4>
-                        </div>
+                    </div>
+                </article>
+
+                <article class="carousel__item-team">
+                    <img src="/assets/img/A-propos/femme2.webp" alt="Portrait de Sophie Laurent, coordinatrice" loading="lazy">
+                    <div class="card-text">
+                        <h3>Sophie Laurent</h3>
+                        <h4>Coordinatrice</h4>
                         <p>Sophie gère la logistique et coordonne les équipes bénévoles.</p>
-                    </article>
-                    <article class="carousel__item">
-                        <img src="/assets/img/A-propos/homme2.webp" alt="Portrait de Lucas Bernard, chargé de communication" loading="lazy">
-                        <div>
-                            <h3>Lucas Bernard</h3>
-                            <h4>Chargé de communication</h4>
-                        </div>
+                    </div>
+                </article>
+
+                <article class="carousel__item-team">
+                    <img src="/assets/img/A-propos/homme2.webp" alt="Portrait de Lucas Bernard, chargé de communication" loading="lazy">
+                    <div class="card-text">
+                        <h3>Lucas Bernard</h3>
+                        <h4>Chargé de communication</h4>
                         <p>Lucas pilote toute la communication et les relations presse du festival.</p>
-                    </article>
-                </div>
-            </section>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </div>
+</section>
 
             <section class="about__values" aria-labelledby="values-title">
                 <h2 id="values-title">Nos Valeurs</h2>
@@ -164,5 +186,7 @@
         </div>
     </footer>
 
+    <script src="/src/js/script.js"></script>
 </body>
 </html>
+
