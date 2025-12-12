@@ -1,0 +1,77 @@
+.faq {
+    padding: 0 1.5rem 4rem;
+}
+
+.faq .section-title {
+    font-family: var(--font-family-playfair-display), "Times New Roman", serif;
+    font-size: 2.6rem;
+    font-weight: 700;
+    color: var(--rouge);
+    margin: 0 0 1.6rem;
+}
+
+.faq__list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.faq__item {
+    background: var(--noir);
+    border: 3px solid var(--rouge);
+    border-radius: 0;
+    overflow: hidden;
+}
+
+.faq__item:nth-child(n + 4) {
+    border-color: var(--moutarde);
+}
+
+.faq__summary {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 1.25rem 1.4rem;
+    cursor: pointer;
+}
+
+.faq__summary::-webkit-details-marker {
+    display: none;
+}
+
+.faq__summary span {
+    font-family: var(--font-family-playfair-display), "Times New Roman", serif;
+    font-size: 1.1rem;
+    line-height: 1.5;
+    color: var(--blanc);
+}
+
+.faq__summary img {
+    width: 18px;
+    height: 18px;
+    flex-shrink: 0;
+    transform: rotate(0deg);
+    transition: transform 0.18s ease;
+    filter: brightness(0) saturate(100%) invert(21%) sepia(93%) saturate(744%) hue-rotate(355deg) brightness(87%) contrast(97%);
+}
+
+.faq__item:nth-child(n + 4) .faq__summary img {
+    filter: brightness(0) saturate(100%) invert(44%) sepia(84%) saturate(600%) hue-rotate(8deg);
+}
+
+.faq__item[open] .faq__summary img {
+    transform: rotate(180deg);
+}
+
+.faq__content {
+    padding: 0 1.4rem 1.25rem;
+}
+
+.faq__content p {
+    margin: 0;
+    color: var(--beige);
+    font-size: 1rem;
+    line-height: 1.6;
+}

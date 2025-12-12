@@ -1,0 +1,139 @@
+.contact-form {
+    background: var(--beige);
+    border-radius: 28px;
+    padding: 2rem 1.8rem 2.2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.4rem;
+    max-width: 380px;
+    margin: 0 auto;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+}
+
+.form-group__label {
+    font-family: var(--font-family-playfair-display), "Times New Roman", serif;
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--noir);
+}
+
+.form-group__input,
+.form-group__textarea {
+    font-family: var(--font-family-playfair-display), "Times New Roman", serif;
+    font-size: 0.95rem;
+    padding: 0.7rem 0.9rem;
+    border-radius: 10px;
+    border: 1.5px solid var(--rouge);
+    background: var(--blanc);
+    color: var(--noir);
+    outline: none;
+}
+
+.form-group__input::placeholder,
+.form-group__textarea::placeholder {
+    color: var(--rouge);
+    opacity: 0.85;
+}
+
+.form-group__input:focus,
+.form-group__textarea:focus {
+    border-color: var(--rouge);
+}
+
+.form-group__textarea {
+    resize: none;
+    min-height: 120px;
+}
+
+.btn--primary {
+    margin-top: 1.2rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.6rem;
+    padding: 0.9rem 1.6rem;
+    border-radius: 999px;
+    border: none;
+    background: var(--rouge);
+    color: var(--blanc);
+    font-family: var(--font-family-playfair-display), "Times New Roman", serif;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.btn--primary img {
+    width: 16px;
+    height: 16px;
+}
+
+.btn--primary:hover {
+    background: var(--rouge);
+}
+
+.btn--full {
+    width: 100%;
+}
+
+/* card contact */
+.contact--secondary {
+    padding: 0 1.5rem 4rem;
+}
+
+.contact__section--coords .section-title {
+    font-family: var(--font-family-playfair-display), "Times New Roman", serif;
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: var(--rouge);
+    margin: 0 0 1.6rem;
+}
+
+.contact-info {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1.4rem;
+}
+
+.contact-info__item {
+    background: var(--beige);
+    border: 1.5px solid var(--moutarde);
+    border-radius: 26px;
+    padding: 1.4rem 1.5rem 1.6rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+}
+
+.contact-info__title {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    margin: 0 0 0.4rem;
+    font-family: var(--font-family-playfair-display), "Times New Roman", serif;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--moutarde);
+}
+
+.contact-info__title img {
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+}
+
+.contact-info__item p {
+    margin: 0;
+    font-family: var(--font-family-playfair-display), "Times New Roman", serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.6;
+    color: var(--noir);
+}

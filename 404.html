@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Page non trouvée | Flying Tap Fest</title>
+	<meta name="description" content="Oups, la page que vous cherchez n'existe pas. Retournez à l'accueil du Flying Tap Fest.">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=La+Belle+Aurore&family=Abril+Fatface&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="/src/css/style.css">
+
+	<link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/assets/favicon/site.webmanifest">
+</head>
+<body>
+
+	<header class="header">
+		<a href="/index.html" class="logo" aria-label="Accueil Flying Tap Fest">
+			<img src="/assets/icons/Logo.svg" alt="Logo Flying Tap Fest">
+		</a>
+
+		<button class="menu-toggle" type="button" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="main-nav">
+			<span></span>
+			<span></span>
+		</button>
+
+		<nav class="nav" id="main-nav" aria-label="Navigation principale">
+			<ul>
+				<li><a href="/lefestival.html">À propos</a></li>
+				<li><a href="/programme.html">Programme</a></li>
+				<li><a href="/artistes.html">Artistes</a></li>
+				<li><a href="/scenes.html">Les scènes</a></li>
+			</ul>
+			<ul>
+				<li><a href="/infos.html">Infos pratiques</a></li>
+				<li><a href="/contact.html">Contact</a></li>
+			</ul>
+			<img src="/assets/icons/menu.svg" alt="" aria-hidden="true">
+		</nav>
+	</header>
+
+	<main class="main">
+		<section class="error-page" aria-labelledby="error-title">
+			<div class="error-page__badge" aria-hidden="true">404</div>
+			<h1 class="error-page__title" id="error-title">Oups, la page est introuvable.</h1>
+			<p class="error-page__text">La ressource que vous cherchez n'existe plus ou a été déplacée. Utilisez les boutons ci-dessous pour revenir vers les contenus du Flying Tap Fest.</p>
+			<div class="error-page__actions">
+				<a class="btn btn--primary" href="/index.html">Retour à l'accueil</a>
+				<a class="btn btn--cta" href="/programme.html">Voir le programme</a>
+				<a class="btn btn--primary" href="/contact.html">Contacter l'équipe</a>
+			</div>
+		</section>
+	</main>
+
+	<footer class="footer">
+		<div class="footer__content">
+
+			<section class="footer__section">
+				<h3 class="footer__title">Flying Tap Fest</h3>
+				<p>Le festival de claquettes qui fait vibrer Montbéliard chaque été. Une célébration de la danse, du rythme et de la culture tap.</p>
+			</section>
+
+			<section class="footer__section" aria-labelledby="footer-links">
+				<h3 class="footer__title" id="footer-links">Liens Rapides</h3>
+				<ul class="footer__links">
+					<li><a href="/lefestival.html">Le Festival</a></li>
+					<li><a href="/programme.html">Programme</a></li>
+					<li><a href="/artistes.html">Artistes</a></li>
+					<li><a href="/scenes.html">Scènes</a></li>
+					<li><a href="/infos.html">Infos Pratiques</a></li>
+					<li><a href="/contact.html">Contact</a></li>
+				</ul>
+			</section>
+
+			<section class="footer__section" aria-labelledby="footer-social">
+				<h3 class="footer__title" id="footer-social">Suivez-nous</h3>
+				<ul class="footer__social">
+					<li><a href="#" aria-label="Facebook"><img src="/assets/icons/Facebook.svg" alt=""></a></li>
+					<li><a href="#" aria-label="Instagram"><img src="/assets/icons/Instagram.svg" alt=""></a></li>
+					<li><a href="#" aria-label="YouTube"><img src="/assets/icons/Youtube.svg" alt=""></a></li>
+					<li><a href="#" aria-label="X"><img src="/assets/icons/X.svg" alt=""></a></li>
+				</ul>
+			</section>
+
+		</div>
+
+		<div class="footer__bottom">
+			<p>© 2026 Flying Tap Fest. Tous droits réservés.</p>
+			<a href="/contact.html" class="footer__cta">Devenir partenaire</a>
+		</div>
+	</footer>
+
+	<script src="/src/js/script.js" defer></script>
+</body>
+</html>

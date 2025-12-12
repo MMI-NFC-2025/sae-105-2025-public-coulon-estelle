@@ -1,25 +1,10 @@
 /* Variable collection */
 :root {
   --beige: #b5ab96;
-  --beige-clair: #d8cdb8;
-  --beige-tres-clair: #e6dfd2;
-  --beige-chaud: #f8f3ea;
-  --beige-pastel: #F6E9CC;
   --blanc: #f3eee5;
-  --blanc-transparent: rgba(243, 238, 229, 0.98);
-  --blanc-semi: rgba(255, 255, 255, 0.1);
-  --blanc-border: rgba(255, 255, 255, 0.2);
   --moutarde: #976819;
-  --moutarde-clair: #b07d2a;
-  --moutarde-moyen: #B66A23;
-  --moutarde-fonce: #C7A144;
   --noir: #222222;
-  --noir-brun: #4a4032;
-  --brun-moyen: #61533d;
   --rouge: #841a0f;
-  --rouge-fonce: #8c170b;
-  --rouge-vif: #8C1B13;
-  --rouge-clair: #a83c28;
 
   --font-size-16: 1rem;
   --font-size-20: 1.25rem;

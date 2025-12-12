@@ -19,7 +19,7 @@
 
 .explore__subtitle {
   font-size: 1.05rem;
-  color: #4a4032;
+    color: var(--noir);
   margin: 0;
 }
 
@@ -32,16 +32,16 @@
 
 .card {
   background: var(--blanc);
-  border: 1px solid var(--beige-tres-clair);
+    border: 1px solid var(--beige);
   border-radius: 18px;
   overflow: hidden;
-  box-shadow: 0 14px 30px rgba(0, 0, 0, 0.06);
+    box-shadow: 0 14px 30px rgba(34, 34, 34, 0.06);
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .card:hover {
   transform: translateY(-4px);
-  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 18px 40px rgba(34, 34, 34, 0.08);
 }
 
 .card a {
@@ -69,7 +69,7 @@
 
 .card__description {
   padding: 0 1.25rem;
-  color: #4a4032;
+    color: var(--noir);
   font-size: 1rem;
   margin: 0;
 }
@@ -92,13 +92,13 @@
 /* card artistes */
 .artists {
     padding: 3rem 1.5rem 4rem;
-    background: #F3EBDE;
+    background: var(--beige);
 }
 
 .artists h1 {
     font-family: var(--font-family-playfair-display), "Times New Roman", serif;
     font-size: 2.6rem;
-    color: #C5953B;
+    color: var(--moutarde);
     margin-bottom: 2rem;
 }
 
@@ -119,10 +119,10 @@
     display: block;
     border-radius: 28px;
     overflow: hidden;
-    background: #191919;
-    color: #F6E9CC;
+    background: var(--noir);
+    color: var(--blanc);
     text-decoration: none;
-    box-shadow: 0 18px 40px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 18px 40px rgba(34, 34, 34, 0.25);
     max-width: 760px;
     margin: 0 auto;
 }
@@ -163,11 +163,125 @@
 .artist-card__details p {
     margin: 0;
     font-size: 1rem;
-    color: #F6E9CC;
+    color: var(--blanc);
 }
 
 .artist-card:hover {
     transform: translateY(-3px);
-    box-shadow: 0 22px 50px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 22px 50px rgba(34, 34, 34, 0.3);
     transition: transform 0.18s ease, box-shadow 0.18s ease;
+}
+
+
+.artist-detail {
+    margin: 3rem 1.5rem 4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.8rem;
+}
+
+.artist-detail > img {
+    width: 100%;
+    border-radius: 26px;
+    object-fit: cover;
+    display: block;
+}
+
+.artist-detail__info ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.artist-detail__info li {
+    background: var(--noir);
+    border-radius: 26px;
+    padding: 0.9rem 1.4rem 1.3rem;
+    color: var(--blanc);
+}
+
+.artist-detail__info li p {
+    margin: 0;
+}
+
+.artist-detail__info li p:first-child {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-family: var(--font-family-playfair-display), "Times New Roman", serif;
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--moutarde);
+    margin-bottom: 0.4rem;
+}
+
+.artist-detail__info li p:first-child img {
+    width: 18px;
+    height: 18px;
+}
+
+.artist-detail__info li p:last-child {
+    font-size: 0.98rem;
+}
+
+/* card infos */
+.infos__section--hebergements {
+    padding: 0 1.5rem 3.5rem;
+}
+
+.infos__section--hebergements .section-title {
+    font-family: var(--font-family-playfair-display), "Times New Roman", serif;
+    font-size: 2.6rem;
+    font-weight: 700;
+    color: var(--rouge);
+    margin: 0 0 1rem;
+}
+
+.infos__section--hebergements > p {
+    margin: 0 0 2rem;
+    font-size: 1.05rem;
+    line-height: 1.6;
+    color: var(--noir);
+}
+
+.infos-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1.4rem;
+}
+
+.infos-list__item {
+    background: var(--beige);
+    border-radius: 26px;
+    padding: 1.4rem 1.5rem 1.6rem;
+}
+
+.infos-list__title {
+    font-family: var(--font-family-playfair-display), "Times New Roman", serif;
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--moutarde);
+    margin: 0 0 0.8rem;
+}
+
+.infos-list__item p {
+    margin: 0;
+    font-size: 1.05rem;
+    line-height: 1.6;
+    color: var(--noir);
+}
+
+.infos-list__item--sub {
+    padding: 0.25rem 0;
+    margin: 0;
+}
+
+.infos-list__item--sub p {
+    margin: 0.25rem 0;
 }

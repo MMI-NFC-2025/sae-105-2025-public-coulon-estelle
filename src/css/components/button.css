@@ -21,7 +21,7 @@
 
 .btn--primary {
   background: var(--rouge);
-  color: #fff;
+  color: var(--blanc);
   box-shadow: 0 12px 24px rgba(132, 26, 15, 0.25);
 }
 
@@ -31,14 +31,14 @@
 }
 
 .btn--cta {
-  background: linear-gradient(120deg, var(--moutarde), var(--moutarde-clair));
+  background: var(--moutarde);
   color: var(--blanc);
-  box-shadow: 0 12px 24px rgba(151, 104, 25, 0.28);
+  box-shadow: 0 12px 24px rgba(34, 34, 34, 0.12);
 }
 
 .btn--cta:hover {
   transform: translateY(-2px);
-  box-shadow: 0 14px 28px rgba(151, 104, 25, 0.35);
+  box-shadow: 0 14px 28px rgba(34, 34, 34, 0.2);
 }
 
 .btn--full {
@@ -53,7 +53,7 @@
     gap: 0.6rem;
     padding: 0.9rem 2rem;
     background: var(--rouge);
-    color: #FFFFFF;
+  color: var(--blanc);
     font-family: var(--font-family-playfair-display);
     font-size: 1rem;
     font-weight: 600;

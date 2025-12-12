@@ -1,5 +1,5 @@
 .cta {
-    background: linear-gradient(120deg, var(--rouge-fonce), var(--rouge-clair));
+    background: linear-gradient(120deg, var(--rouge), var(--moutarde));
     color: var(--blanc);
     padding: 2.5rem 2rem;
     border-radius: 0;
@@ -8,4 +8,32 @@
     align-items: center;
     text-align: center;
     box-shadow: 0 16px 36px rgba(132, 26, 15, 0.35);
+}
+
+/* retour en arrière */
+
+.breadcrumb {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-family: var(--font-family-playfair-display);
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--rouge);
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.breadcrumb a {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: var(--rouge);
+    text-decoration: none;
+}
+
+.breadcrumb img {
+    width: 24px;
+    height: 24px;
+    filter: brightness(0) saturate(100%) invert(14%) sepia(73%) saturate(3205%) hue-rotate(352deg) brightness(94%) contrast(92%);
 }

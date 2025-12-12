@@ -3,6 +3,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
 
+/* Vendors */
+@import "vendors/normalize.css";
+
 /* Base */
 @import "base/main.css";
 @import "base/media.css";
@@ -23,8 +26,12 @@
 @import "components/cards.css";
 @import "components/carousel.css";
 @import "components/cta.css";
-
+@import "components/faq.css";
 @import "components/about.css";
 @import "components/schedule.css";
 @import "components/filtres.css";
-@import "components/card.css";
+@import "components/tarifs.css";
+@import "components/article.css";
+@import "components/scenes.css";
+@import "components/contact.css";
+@import "components/404.css";

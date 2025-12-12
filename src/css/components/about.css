@@ -3,7 +3,7 @@
     padding: 3.5rem 1.5rem;
     border-radius: 20px;
     text-align: center;
-    background: linear-gradient(180deg, var(--rouge-vif) 0%, var(--moutarde-moyen) 50%, var(--moutarde-fonce) 100%);
+    background: linear-gradient(180deg, var(--rouge) 0%, var(--moutarde) 100%);
     color: var(--blanc);
 }
 
@@ -33,7 +33,7 @@ body:not(.home) .main {
     padding: 2.2rem 2.4rem;
     border-radius: 36px;
     background: var(--noir);
-    color: var(--beige-pastel);
+    color: var(--blanc);
 }
 
 .about__mix h2 {
@@ -42,7 +42,7 @@ body:not(.home) .main {
     font-weight: 700;
     line-height: 1.4;
     margin: 0 0 1.4rem;
-    color: var(--beige-pastel);
+    color: var(--blanc);
 }
 
 .about__mix ul {

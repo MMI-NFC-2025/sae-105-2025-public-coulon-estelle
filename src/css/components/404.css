@@ -1,0 +1,42 @@
+	  .error-page {
+		min-height: 70vh;
+		display: grid;
+		place-items: center;
+		padding: 4rem 1.5rem;
+		background: var(--beige);
+		text-align: center;
+		gap: 1.4rem;
+	  }
+	  .error-page__badge {
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		width: 88px;
+		height: 88px;
+		border-radius: 24px;
+		background: var(--rouge);
+		color: var(--blanc);
+		font-family: var(--font-family-abril-fatface), serif;
+		font-size: 2.6rem;
+		letter-spacing: 0.03em;
+	  }
+	  .error-page__title {
+		margin: 0;
+		font-family: var(--font-family-playfair-display), "Times New Roman", serif;
+		font-size: clamp(2rem, 4vw, 2.6rem);
+		color: var(--noir);
+	  }
+	  .error-page__text {
+		margin: 0;
+		font-size: 1.05rem;
+		line-height: 1.6;
+		color: var(--noir);
+		max-width: 620px;
+	  }
+	  .error-page__actions {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		gap: 0.8rem;
+		margin-top: 0.6rem;
+	  }

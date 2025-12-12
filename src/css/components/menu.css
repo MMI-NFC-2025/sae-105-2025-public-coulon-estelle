@@ -10,14 +10,14 @@
   gap: 6px;
   cursor: pointer;
   border-radius: 12px;
-  border: 1px solid var(--beige-clair);
+  border: 1px solid var(--beige);
   background: var(--blanc);
   padding: 10px;
   transition: all 0.3s ease;
 }
 
 .menu-toggle:hover {
-  background: var(--beige-chaud);
+  background: var(--beige);
   border-color: var(--noir);
 }
 
@@ -52,7 +52,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background: var(--blanc-transparent);
+    background: rgba(243, 238, 229, 0.9);
     backdrop-filter: blur(8px);
     flex-direction: column;
     padding: 2rem 1.5rem;

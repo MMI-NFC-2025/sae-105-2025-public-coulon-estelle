@@ -1,0 +1,198 @@
+.tarifs {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 2.2rem;
+    align-items: center;
+}
+
+.tarifs > li {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.tarif-card {
+    width: 100%;
+    max-width: 360px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.tarif-card--1jour {
+    background: var(--noir);
+    border-radius: 40px;
+    padding: 2.4rem 1.8rem 2.8rem;
+    color: var(--blanc);
+}
+
+.tarif-card__header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tarif-card__name {
+    font-family: var(--font-family-playfair-display), "Times New Roman", serif;
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: var(--moutarde);
+    margin: 0 0 1.2rem;
+}
+
+.tarif-card__price {
+    font-family: var(--font-family-playfair-display), "Times New Roman", serif;
+    font-size: 4.2rem;
+    font-weight: 700;
+    color: var(--blanc);
+    margin: 0 0 1.8rem;
+}
+
+.tarif-card__content {
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+}
+
+.tarif-card__content p {
+    margin: 0;
+    font-size: 1.05rem;
+    line-height: 1.4;
+    color: var(--beige);
+}
+
+.tarif-card--2jours {
+    background: linear-gradient(180deg, var(--rouge) 0%, var(--moutarde) 100%);
+    border-radius: 24px;
+    padding: 2.2rem 2rem;
+    color: var(--blanc);
+    box-shadow: 0 22px 55px rgba(34, 34, 34, 0.28);
+}
+
+.tarif-card__name--2jours {
+    font-family: var(--font-family-playfair-display), "Times New Roman", serif;
+    font-size: 1.7rem;
+    font-weight: 700;
+    margin: 0 0 1.4rem;
+    color: var(--blanc);
+}
+
+.tarif-card__price--2jours {
+    font-family: var(--font-family-playfair-display), "Times New Roman", serif;
+    font-size: 3.8rem;
+    font-weight: 700;
+    margin: 0 0 1.6rem;
+    color: var(--blanc);
+}
+
+.tarif-card__content--2jours {
+    display: flex;
+    flex-direction: column;
+    gap: 0.55rem;
+    margin: 0;
+}
+
+.tarif-card__content--2jours p {
+    margin: 0;
+    font-size: 1rem;
+    line-height: 1.45;
+    color: var(--blanc);
+}
+
+.tarif-card--2jours::after {
+    content: "MEILLEURE OFFRE";
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--blanc);
+    color: var(--rouge);
+    font-family: var(--font-family-playfair-display), "Times New Roman", serif;
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 0.9rem 2.2rem;
+    border-radius: 999px;
+    letter-spacing: 0.05em;
+    margin: 1.7rem auto 0;
+    width: fit-content;
+}
+
+.tarif-card--vip {
+    background: var(--beige);
+    border: 3px solid var(--rouge);
+    border-radius: 24px;
+    padding: 2.2rem 2rem 2.6rem;
+}
+
+.tarif-card__name--vip {
+    font-family: var(--font-family-playfair-display), "Times New Roman", serif;
+    font-size: 1.7rem;
+    font-weight: 700;
+    color: var(--rouge);
+    margin: 0 0 1.4rem;
+}
+
+.tarif-card__price--vip {
+    font-family: var(--font-family-playfair-display), "Times New Roman", serif;
+    font-size: 3.4rem;
+    font-weight: 700;
+    color: var(--rouge);
+    margin: 0 0 1.6rem;
+}
+
+.tarif-card__content--vip {
+    display: flex;
+    flex-direction: column;
+    gap: 0.55rem;
+}
+
+.tarif-card__content--vip p {
+    margin: 0;
+    font-size: 1rem;
+    line-height: 1.45;
+    color: var(--noir);
+}
+
+.tarifs__complements {
+    width: 100%;
+    max-width: 360px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 14px 16px;
+    background: var(--noir);
+}
+
+.tarifs__complements .tarifs__item {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    margin: 0;
+    padding: 0;
+}
+
+.tarifs__subtitle--complement {
+    margin: 0;
+    padding: 0;
+    font-family: var(--font-family-playfair-display), "Times New Roman", serif;
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--moutarde);
+    line-height: 1.2;
+}
+
+.tarifs__complements {
+    margin-top: 30px;
+}
+
+.tarifs__complements p {
+    margin-top: 0;
+    padding: 0;
+    font-family: var(--font-family-playfair-display), "Times New Roman", serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.4;
+    color: var(--beige);
+}

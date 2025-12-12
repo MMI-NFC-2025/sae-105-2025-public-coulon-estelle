@@ -1,0 +1,25 @@
+.artist-gallery {
+    margin: 3rem 1.5rem 4rem;
+}
+
+.artist-gallery h2 {
+    font-family: var(--font-family-playfair-display), "Times New Roman", serif;
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--rouge);
+    margin: 0 0 1.6rem;
+}
+
+.artist-detail__gallery {
+    display: flex;
+    flex-direction: column;
+    gap: 1.8rem;
+}
+
+.artist-detail__gallery img {
+    width: 100%;
+    height: 210px;
+    object-fit: cover;
+    border-radius: 26px;
+    display: block;
+}

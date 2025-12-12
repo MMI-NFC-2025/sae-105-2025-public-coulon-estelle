@@ -6,6 +6,7 @@
   background-color: var(--noir);
   color: var(--blanc);
   padding: 4rem 1.5rem 2rem;
+  margin-top: 70px;
 }
 
 .footer__content {

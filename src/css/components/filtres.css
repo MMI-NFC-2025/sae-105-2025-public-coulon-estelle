@@ -2,8 +2,8 @@
     margin: 2rem 1.5rem 2.5rem;
     padding: 1.8rem 1.8rem 2.2rem;
     border-radius: 36px;
-    background: #191919;
-    color: #F6E9CC;
+    background: var(--noir);
+    color: var(--blanc);
 }
 
 .filters__header p {
@@ -35,7 +35,7 @@
     margin: 0;
     padding: 0.8rem 1.4rem;
     border-radius: 999px;
-    background: #F6EDE0;
+    background: var(--blanc);
     color: var(--moutarde);
     font-family: var(--font-family-playfair-display);
     font-size: 1rem;
@@ -57,10 +57,10 @@
 .filters__options {
     margin-top: 0.4rem;
     border-radius: 18px;
-    background: #F6EDE0;
+    background: var(--blanc);
     display: none;
     overflow: hidden;
-    box-shadow: 0 16px 40px rgba(0, 0, 0, 0.35);
+    box-shadow: 0 16px 40px rgba(34, 34, 34, 0.35);
 }
 
 .filters__options--open {
@@ -75,10 +75,10 @@
     text-align: left;
     font-family: var(--font-family-playfair-display);
     font-size: 0.95rem;
-    color: #7A5A2A;
+    color: var(--noir);
     cursor: pointer;
 }
 
 .filters__options button:hover {
-    background: rgba(0, 0, 0, 0.06);
+    background: rgba(34, 34, 34, 0.06);
 }
